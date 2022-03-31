@@ -19,9 +19,8 @@ function luhnAddDouble(input) {
       let firstDigit = parseFloat(splitDouble[0]);
       let secondDigit = parseFloat(splitDouble[1]);
       let newNum = firstDigit + secondDigit;
-      // doubled.splice(i, newNum)
-      debugger;
-      return doubled;
+      doubled[i] = newNum;
     }
   }
+  return doubled;
 }
